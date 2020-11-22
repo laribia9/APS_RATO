@@ -1,1 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
 
+#define CHAO 0
+#define PAREDE 1
+#define RATO 2
+#define OCUPADO 3
+#define QUEIJO 4
+
+#define OK 1
+#define ERRO 2
+
+
+
+#define LIMPARTELA "cls"
+
+
+
+int coluna_atual = 1,
+   linha_atual = 0;
+
+
+int mapa[5][5] = {
+1,2,1,1,1,
+1,0,1,4,1,
+1,0,1,0,1,
+1,0,0,0,1,
+1,1,1,1,1,
+
+};
